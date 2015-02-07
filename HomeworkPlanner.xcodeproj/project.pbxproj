@@ -1,0 +1,615 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		66B9D15D19AEDA9F00D36B9B /* HWDatePickerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 66B9D15C19AEDA9F00D36B9B /* HWDatePickerCell.m */; };
+		66BFEA9F19AA849D00372C99 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66BFEA9E19AA849D00372C99 /* Foundation.framework */; };
+		66BFEAA119AA849D00372C99 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66BFEAA019AA849D00372C99 /* CoreGraphics.framework */; };
+		66BFEAA319AA849D00372C99 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66BFEAA219AA849D00372C99 /* UIKit.framework */; };
+		66BFEAA919AA849D00372C99 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 66BFEAA719AA849D00372C99 /* InfoPlist.strings */; };
+		66BFEAAB19AA849D00372C99 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 66BFEAAA19AA849D00372C99 /* main.m */; };
+		66BFEAAF19AA849D00372C99 /* HWAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 66BFEAAE19AA849D00372C99 /* HWAppDelegate.m */; };
+		66BFEAB219AA849D00372C99 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66BFEAB019AA849D00372C99 /* Main.storyboard */; };
+		66BFEAB519AA849D00372C99 /* HWAssignmentsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66BFEAB419AA849D00372C99 /* HWAssignmentsViewController.m */; };
+		66BFEAB719AA849D00372C99 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66BFEAB619AA849D00372C99 /* Images.xcassets */; };
+		66BFEABE19AA849E00372C99 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66BFEABD19AA849E00372C99 /* XCTest.framework */; };
+		66BFEABF19AA849E00372C99 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66BFEA9E19AA849D00372C99 /* Foundation.framework */; };
+		66BFEAC019AA849E00372C99 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66BFEAA219AA849D00372C99 /* UIKit.framework */; };
+		66BFEAC819AA849E00372C99 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 66BFEAC619AA849E00372C99 /* InfoPlist.strings */; };
+		66BFEACA19AA849E00372C99 /* HomeworkPlannerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 66BFEAC919AA849E00372C99 /* HomeworkPlannerTests.m */; };
+		66BFEAD519AA85F900372C99 /* HWAddAssignmentNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66BFEAD419AA85F900372C99 /* HWAddAssignmentNavigationController.m */; };
+		66BFEAD819AA863100372C99 /* HWAddAssignmentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66BFEAD719AA863100372C99 /* HWAddAssignmentViewController.m */; };
+		66C06C9319B20C9200D48D60 /* HWAssignmentCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 66C06C9219B20C9200D48D60 /* HWAssignmentCell.m */; };
+		66C06C9919B238B800D48D60 /* HWSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66C06C9819B238B800D48D60 /* HWSettingsViewController.m */; };
+		66E162C919AAAA0000A8C860 /* HWAssignment.m in Sources */ = {isa = PBXBuildFile; fileRef = 66E162C819AAAA0000A8C860 /* HWAssignment.m */; };
+		6A144BCA19C3F317004AE779 /* HWSwitchCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A144BC919C3F317004AE779 /* HWSwitchCell.m */; };
+		6A95E30619CD220E0004CF65 /* HWTextFieldCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A95E30519CD220E0004CF65 /* HWTextFieldCell.m */; };
+		6A95E30919CD2A690004CF65 /* HWAboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A95E30819CD2A690004CF65 /* HWAboutViewController.m */; };
+		6A95E30B19CD309F0004CF65 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A95E30A19CD309F0004CF65 /* MessageUI.framework */; };
+		6ABC650619C4D094009B7E3F /* HWSchooldaysViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ABC650519C4D094009B7E3F /* HWSchooldaysViewController.m */; };
+		6AC361EF19C52F9D00CC8AEF /* HWPreferencesManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AC361EE19C52F9D00CC8AEF /* HWPreferencesManager.m */; };
+		6AC361F219C5372000CC8AEF /* HWNotificationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AC361F119C5372000CC8AEF /* HWNotificationManager.m */; };
+		6AC361F519C5377000CC8AEF /* HWUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AC361F419C5377000CC8AEF /* HWUtilities.m */; };
+		6ACE582219E05ED40001278C /* HWNotesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ACE582119E05ED40001278C /* HWNotesTableViewController.m */; };
+		6ACE582519E060450001278C /* HWNotesNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ACE582419E060450001278C /* HWNotesNavigationController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		66BFEAC119AA849E00372C99 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 66BFEA9319AA849D00372C99 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 66BFEA9A19AA849D00372C99;
+			remoteInfo = HomeworkPlanner;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		66B9D15B19AEDA9F00D36B9B /* HWDatePickerCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWDatePickerCell.h; sourceTree = "<group>"; };
+		66B9D15C19AEDA9F00D36B9B /* HWDatePickerCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HWDatePickerCell.m; sourceTree = "<group>"; };
+		66BFEA9B19AA849D00372C99 /* HomeworkPlanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HomeworkPlanner.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		66BFEA9E19AA849D00372C99 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		66BFEAA019AA849D00372C99 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		66BFEAA219AA849D00372C99 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		66BFEAA619AA849D00372C99 /* HomeworkPlanner-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HomeworkPlanner-Info.plist"; sourceTree = "<group>"; };
+		66BFEAA819AA849D00372C99 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		66BFEAAA19AA849D00372C99 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		66BFEAAC19AA849D00372C99 /* HomeworkPlanner-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HomeworkPlanner-Prefix.pch"; sourceTree = "<group>"; };
+		66BFEAAD19AA849D00372C99 /* HWAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HWAppDelegate.h; sourceTree = "<group>"; };
+		66BFEAAE19AA849D00372C99 /* HWAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HWAppDelegate.m; sourceTree = "<group>"; };
+		66BFEAB119AA849D00372C99 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		66BFEAB319AA849D00372C99 /* HWAssignmentsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HWAssignmentsViewController.h; sourceTree = "<group>"; };
+		66BFEAB419AA849D00372C99 /* HWAssignmentsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HWAssignmentsViewController.m; sourceTree = "<group>"; };
+		66BFEAB619AA849D00372C99 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		66BFEABC19AA849E00372C99 /* HomeworkPlannerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HomeworkPlannerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		66BFEABD19AA849E00372C99 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		66BFEAC519AA849E00372C99 /* HomeworkPlannerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HomeworkPlannerTests-Info.plist"; sourceTree = "<group>"; };
+		66BFEAC719AA849E00372C99 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		66BFEAC919AA849E00372C99 /* HomeworkPlannerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeworkPlannerTests.m; sourceTree = "<group>"; };
+		66BFEAD319AA85F900372C99 /* HWAddAssignmentNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWAddAssignmentNavigationController.h; sourceTree = "<group>"; };
+		66BFEAD419AA85F900372C99 /* HWAddAssignmentNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HWAddAssignmentNavigationController.m; sourceTree = "<group>"; };
+		66BFEAD619AA863100372C99 /* HWAddAssignmentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWAddAssignmentViewController.h; sourceTree = "<group>"; };
+		66BFEAD719AA863100372C99 /* HWAddAssignmentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HWAddAssignmentViewController.m; sourceTree = "<group>"; };
+		66C06C9119B20C9200D48D60 /* HWAssignmentCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWAssignmentCell.h; sourceTree = "<group>"; };
+		66C06C9219B20C9200D48D60 /* HWAssignmentCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HWAssignmentCell.m; sourceTree = "<group>"; };
+		66C06C9719B238B800D48D60 /* HWSettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWSettingsViewController.h; sourceTree = "<group>"; };
+		66C06C9819B238B800D48D60 /* HWSettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HWSettingsViewController.m; sourceTree = "<group>"; };
+		66E162C719AAAA0000A8C860 /* HWAssignment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWAssignment.h; sourceTree = "<group>"; };
+		66E162C819AAAA0000A8C860 /* HWAssignment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HWAssignment.m; sourceTree = "<group>"; };
+		6A144BC819C3F317004AE779 /* HWSwitchCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWSwitchCell.h; sourceTree = "<group>"; };
+		6A144BC919C3F317004AE779 /* HWSwitchCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HWSwitchCell.m; sourceTree = "<group>"; };
+		6A95E30419CD220E0004CF65 /* HWTextFieldCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWTextFieldCell.h; sourceTree = "<group>"; };
+		6A95E30519CD220E0004CF65 /* HWTextFieldCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HWTextFieldCell.m; sourceTree = "<group>"; };
+		6A95E30719CD2A690004CF65 /* HWAboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWAboutViewController.h; sourceTree = "<group>"; };
+		6A95E30819CD2A690004CF65 /* HWAboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HWAboutViewController.m; sourceTree = "<group>"; };
+		6A95E30A19CD309F0004CF65 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		6ABC650419C4D094009B7E3F /* HWSchooldaysViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWSchooldaysViewController.h; sourceTree = "<group>"; };
+		6ABC650519C4D094009B7E3F /* HWSchooldaysViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HWSchooldaysViewController.m; sourceTree = "<group>"; };
+		6AC361ED19C52F9D00CC8AEF /* HWPreferencesManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWPreferencesManager.h; sourceTree = "<group>"; };
+		6AC361EE19C52F9D00CC8AEF /* HWPreferencesManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HWPreferencesManager.m; sourceTree = "<group>"; };
+		6AC361F019C5372000CC8AEF /* HWNotificationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWNotificationManager.h; sourceTree = "<group>"; };
+		6AC361F119C5372000CC8AEF /* HWNotificationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HWNotificationManager.m; sourceTree = "<group>"; };
+		6AC361F319C5377000CC8AEF /* HWUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWUtilities.h; sourceTree = "<group>"; };
+		6AC361F419C5377000CC8AEF /* HWUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HWUtilities.m; sourceTree = "<group>"; };
+		6ACE582019E05ED40001278C /* HWNotesTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWNotesTableViewController.h; sourceTree = "<group>"; };
+		6ACE582119E05ED40001278C /* HWNotesTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HWNotesTableViewController.m; sourceTree = "<group>"; };
+		6ACE582319E060450001278C /* HWNotesNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWNotesNavigationController.h; sourceTree = "<group>"; };
+		6ACE582419E060450001278C /* HWNotesNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HWNotesNavigationController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		66BFEA9819AA849D00372C99 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A95E30B19CD309F0004CF65 /* MessageUI.framework in Frameworks */,
+				66BFEAA119AA849D00372C99 /* CoreGraphics.framework in Frameworks */,
+				66BFEAA319AA849D00372C99 /* UIKit.framework in Frameworks */,
+				66BFEA9F19AA849D00372C99 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66BFEAB919AA849E00372C99 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66BFEABE19AA849E00372C99 /* XCTest.framework in Frameworks */,
+				66BFEAC019AA849E00372C99 /* UIKit.framework in Frameworks */,
+				66BFEABF19AA849E00372C99 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		66B9D15A19AED99800D36B9B /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				6A95E30419CD220E0004CF65 /* HWTextFieldCell.h */,
+				6A95E30519CD220E0004CF65 /* HWTextFieldCell.m */,
+				66B9D15B19AEDA9F00D36B9B /* HWDatePickerCell.h */,
+				66B9D15C19AEDA9F00D36B9B /* HWDatePickerCell.m */,
+				66C06C9119B20C9200D48D60 /* HWAssignmentCell.h */,
+				66C06C9219B20C9200D48D60 /* HWAssignmentCell.m */,
+				6A144BC819C3F317004AE779 /* HWSwitchCell.h */,
+				6A144BC919C3F317004AE779 /* HWSwitchCell.m */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		66BFEA9219AA849D00372C99 = {
+			isa = PBXGroup;
+			children = (
+				66BFEAA419AA849D00372C99 /* HomeworkPlanner */,
+				66BFEAC319AA849E00372C99 /* HomeworkPlannerTests */,
+				66BFEA9D19AA849D00372C99 /* Frameworks */,
+				66BFEA9C19AA849D00372C99 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		66BFEA9C19AA849D00372C99 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				66BFEA9B19AA849D00372C99 /* HomeworkPlanner.app */,
+				66BFEABC19AA849E00372C99 /* HomeworkPlannerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		66BFEA9D19AA849D00372C99 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6A95E30A19CD309F0004CF65 /* MessageUI.framework */,
+				66BFEA9E19AA849D00372C99 /* Foundation.framework */,
+				66BFEAA019AA849D00372C99 /* CoreGraphics.framework */,
+				66BFEAA219AA849D00372C99 /* UIKit.framework */,
+				66BFEABD19AA849E00372C99 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		66BFEAA419AA849D00372C99 /* HomeworkPlanner */ = {
+			isa = PBXGroup;
+			children = (
+				66BFEAAD19AA849D00372C99 /* HWAppDelegate.h */,
+				66BFEAAE19AA849D00372C99 /* HWAppDelegate.m */,
+				66E162C719AAAA0000A8C860 /* HWAssignment.h */,
+				66E162C819AAAA0000A8C860 /* HWAssignment.m */,
+				6ACE582919E061170001278C /* UtilityObjects */,
+				66BFEAB019AA849D00372C99 /* Main.storyboard */,
+				66B9D15A19AED99800D36B9B /* Cells */,
+				66BFEAB319AA849D00372C99 /* HWAssignmentsViewController.h */,
+				66BFEAB419AA849D00372C99 /* HWAssignmentsViewController.m */,
+				6ACE582619E0604D0001278C /* Notes */,
+				6ACE582819E060DF0001278C /* AddAssignment */,
+				6ACE582719E0605C0001278C /* Settings */,
+				66BFEAB619AA849D00372C99 /* Images.xcassets */,
+				66BFEAA519AA849D00372C99 /* Supporting Files */,
+			);
+			path = HomeworkPlanner;
+			sourceTree = "<group>";
+		};
+		66BFEAA519AA849D00372C99 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				66BFEAA619AA849D00372C99 /* HomeworkPlanner-Info.plist */,
+				66BFEAA719AA849D00372C99 /* InfoPlist.strings */,
+				66BFEAAA19AA849D00372C99 /* main.m */,
+				66BFEAAC19AA849D00372C99 /* HomeworkPlanner-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		66BFEAC319AA849E00372C99 /* HomeworkPlannerTests */ = {
+			isa = PBXGroup;
+			children = (
+				66BFEAC919AA849E00372C99 /* HomeworkPlannerTests.m */,
+				66BFEAC419AA849E00372C99 /* Supporting Files */,
+			);
+			path = HomeworkPlannerTests;
+			sourceTree = "<group>";
+		};
+		66BFEAC419AA849E00372C99 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				66BFEAC519AA849E00372C99 /* HomeworkPlannerTests-Info.plist */,
+				66BFEAC619AA849E00372C99 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6ACE582619E0604D0001278C /* Notes */ = {
+			isa = PBXGroup;
+			children = (
+				6ACE582319E060450001278C /* HWNotesNavigationController.h */,
+				6ACE582419E060450001278C /* HWNotesNavigationController.m */,
+				6ACE582019E05ED40001278C /* HWNotesTableViewController.h */,
+				6ACE582119E05ED40001278C /* HWNotesTableViewController.m */,
+			);
+			name = Notes;
+			sourceTree = "<group>";
+		};
+		6ACE582719E0605C0001278C /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				66C06C9719B238B800D48D60 /* HWSettingsViewController.h */,
+				66C06C9819B238B800D48D60 /* HWSettingsViewController.m */,
+				6A95E30719CD2A690004CF65 /* HWAboutViewController.h */,
+				6A95E30819CD2A690004CF65 /* HWAboutViewController.m */,
+				6ABC650419C4D094009B7E3F /* HWSchooldaysViewController.h */,
+				6ABC650519C4D094009B7E3F /* HWSchooldaysViewController.m */,
+			);
+			name = Settings;
+			sourceTree = "<group>";
+		};
+		6ACE582819E060DF0001278C /* AddAssignment */ = {
+			isa = PBXGroup;
+			children = (
+				66BFEAD319AA85F900372C99 /* HWAddAssignmentNavigationController.h */,
+				66BFEAD419AA85F900372C99 /* HWAddAssignmentNavigationController.m */,
+				66BFEAD619AA863100372C99 /* HWAddAssignmentViewController.h */,
+				66BFEAD719AA863100372C99 /* HWAddAssignmentViewController.m */,
+			);
+			name = AddAssignment;
+			sourceTree = "<group>";
+		};
+		6ACE582919E061170001278C /* UtilityObjects */ = {
+			isa = PBXGroup;
+			children = (
+				6AC361ED19C52F9D00CC8AEF /* HWPreferencesManager.h */,
+				6AC361EE19C52F9D00CC8AEF /* HWPreferencesManager.m */,
+				6AC361F019C5372000CC8AEF /* HWNotificationManager.h */,
+				6AC361F119C5372000CC8AEF /* HWNotificationManager.m */,
+				6AC361F319C5377000CC8AEF /* HWUtilities.h */,
+				6AC361F419C5377000CC8AEF /* HWUtilities.m */,
+			);
+			name = UtilityObjects;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		66BFEA9A19AA849D00372C99 /* HomeworkPlanner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66BFEACD19AA849E00372C99 /* Build configuration list for PBXNativeTarget "HomeworkPlanner" */;
+			buildPhases = (
+				66BFEA9719AA849D00372C99 /* Sources */,
+				66BFEA9819AA849D00372C99 /* Frameworks */,
+				66BFEA9919AA849D00372C99 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HomeworkPlanner;
+			productName = HomeworkPlanner;
+			productReference = 66BFEA9B19AA849D00372C99 /* HomeworkPlanner.app */;
+			productType = "com.apple.product-type.application";
+		};
+		66BFEABB19AA849E00372C99 /* HomeworkPlannerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66BFEAD019AA849E00372C99 /* Build configuration list for PBXNativeTarget "HomeworkPlannerTests" */;
+			buildPhases = (
+				66BFEAB819AA849E00372C99 /* Sources */,
+				66BFEAB919AA849E00372C99 /* Frameworks */,
+				66BFEABA19AA849E00372C99 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				66BFEAC219AA849E00372C99 /* PBXTargetDependency */,
+			);
+			name = HomeworkPlannerTests;
+			productName = HomeworkPlannerTests;
+			productReference = 66BFEABC19AA849E00372C99 /* HomeworkPlannerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		66BFEA9319AA849D00372C99 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = HW;
+				LastUpgradeCheck = 0610;
+				TargetAttributes = {
+					66BFEABB19AA849E00372C99 = {
+						TestTargetID = 66BFEA9A19AA849D00372C99;
+					};
+				};
+			};
+			buildConfigurationList = 66BFEA9619AA849D00372C99 /* Build configuration list for PBXProject "HomeworkPlanner" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 66BFEA9219AA849D00372C99;
+			productRefGroup = 66BFEA9C19AA849D00372C99 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				66BFEA9A19AA849D00372C99 /* HomeworkPlanner */,
+				66BFEABB19AA849E00372C99 /* HomeworkPlannerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		66BFEA9919AA849D00372C99 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66BFEAB719AA849D00372C99 /* Images.xcassets in Resources */,
+				66BFEAA919AA849D00372C99 /* InfoPlist.strings in Resources */,
+				66BFEAB219AA849D00372C99 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66BFEABA19AA849E00372C99 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66BFEAC819AA849E00372C99 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		66BFEA9719AA849D00372C99 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66BFEAB519AA849D00372C99 /* HWAssignmentsViewController.m in Sources */,
+				6ACE582219E05ED40001278C /* HWNotesTableViewController.m in Sources */,
+				66B9D15D19AEDA9F00D36B9B /* HWDatePickerCell.m in Sources */,
+				66BFEAAB19AA849D00372C99 /* main.m in Sources */,
+				66BFEAD519AA85F900372C99 /* HWAddAssignmentNavigationController.m in Sources */,
+				6A95E30619CD220E0004CF65 /* HWTextFieldCell.m in Sources */,
+				6AC361EF19C52F9D00CC8AEF /* HWPreferencesManager.m in Sources */,
+				6AC361F519C5377000CC8AEF /* HWUtilities.m in Sources */,
+				66C06C9919B238B800D48D60 /* HWSettingsViewController.m in Sources */,
+				66C06C9319B20C9200D48D60 /* HWAssignmentCell.m in Sources */,
+				6ABC650619C4D094009B7E3F /* HWSchooldaysViewController.m in Sources */,
+				66BFEAAF19AA849D00372C99 /* HWAppDelegate.m in Sources */,
+				6ACE582519E060450001278C /* HWNotesNavigationController.m in Sources */,
+				6A95E30919CD2A690004CF65 /* HWAboutViewController.m in Sources */,
+				6A144BCA19C3F317004AE779 /* HWSwitchCell.m in Sources */,
+				66BFEAD819AA863100372C99 /* HWAddAssignmentViewController.m in Sources */,
+				6AC361F219C5372000CC8AEF /* HWNotificationManager.m in Sources */,
+				66E162C919AAAA0000A8C860 /* HWAssignment.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66BFEAB819AA849E00372C99 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66BFEACA19AA849E00372C99 /* HomeworkPlannerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		66BFEAC219AA849E00372C99 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 66BFEA9A19AA849D00372C99 /* HomeworkPlanner */;
+			targetProxy = 66BFEAC119AA849E00372C99 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		66BFEAA719AA849D00372C99 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				66BFEAA819AA849D00372C99 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		66BFEAB019AA849D00372C99 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				66BFEAB119AA849D00372C99 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		66BFEAC619AA849E00372C99 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				66BFEAC719AA849E00372C99 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		66BFEACB19AA849E00372C99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		66BFEACC19AA849E00372C99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		66BFEACE19AA849E00372C99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HomeworkPlanner/HomeworkPlanner-Prefix.pch";
+				INFOPLIST_FILE = "HomeworkPlanner/HomeworkPlanner-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		66BFEACF19AA849E00372C99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HomeworkPlanner/HomeworkPlanner-Prefix.pch";
+				INFOPLIST_FILE = "HomeworkPlanner/HomeworkPlanner-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		66BFEAD119AA849E00372C99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HomeworkPlanner.app/HomeworkPlanner";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HomeworkPlanner/HomeworkPlanner-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "HomeworkPlannerTests/HomeworkPlannerTests-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		66BFEAD219AA849E00372C99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HomeworkPlanner.app/HomeworkPlanner";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HomeworkPlanner/HomeworkPlanner-Prefix.pch";
+				INFOPLIST_FILE = "HomeworkPlannerTests/HomeworkPlannerTests-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		66BFEA9619AA849D00372C99 /* Build configuration list for PBXProject "HomeworkPlanner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66BFEACB19AA849E00372C99 /* Debug */,
+				66BFEACC19AA849E00372C99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		66BFEACD19AA849E00372C99 /* Build configuration list for PBXNativeTarget "HomeworkPlanner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66BFEACE19AA849E00372C99 /* Debug */,
+				66BFEACF19AA849E00372C99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		66BFEAD019AA849E00372C99 /* Build configuration list for PBXNativeTarget "HomeworkPlannerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66BFEAD119AA849E00372C99 /* Debug */,
+				66BFEAD219AA849E00372C99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 66BFEA9319AA849D00372C99 /* Project object */;
+}
